@@ -1,19 +1,21 @@
 # test-enrichly-react-quiz-be
 
-This is a Node.js project consisting of an API with two routes. One route returns a list of strings from a JSON file, and the other route validates whether a given string is part of the JSON file's list of strings.
+This project in React consists of a quiz where you have to try to guess the 50 most common male names in the USA.
+
+This project makes a simple api call to get the list of names
 
 ## Instalattion
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/lgventura/test-enrichly-react-quiz-be.git
+git clone https://github.com/lgventura/test-enrichly-react-quiz-fe.git
 ```
 
 ## Usage
 
 ```javascript
-cd test-enrichly-react-quiz-be
+cd test-enrichly-react-quiz-fe
 
 npm install
 
@@ -21,24 +23,9 @@ npm start
 
 ```
 
-The server will starts on http://localhost:3000.
-
-## Routes
-
-### List Names
-
-- URL: /api/strings
-- Method: GET
-- Description: Return the ist of names
-
-### Validation
-
-- URL: /api/validation/:string
-- Method: GET
-- Description: Make the validation between the type name and list of names
+The APP will starts on http://localhost:3000.
 
 ## Dependencies
 
-- express
-- cors
-- node js
+- axios
+- React
