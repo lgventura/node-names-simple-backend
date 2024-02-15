@@ -21,7 +21,7 @@ npm start
 
 ```
 
-The server will starts on http://localhost:3000.
+The server will starts on http://localhost:4000.
 
 ## Routes
 
