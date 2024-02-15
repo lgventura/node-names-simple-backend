@@ -1,23 +1,18 @@
-# Use a base image that has Node.js installed
-FROM node:alpine
+# Use the Node.js base image
+FROM node:14
 
-# Define the working directory inside the container
-WORKDIR /app
+# Set the working directory inside the container
+WORKDIR /usr/src/app
 
-# Copy the package.json file and the package-lock.json (or yarn.lock) file
+# Copy the necessary files into the container
 COPY package*.json ./
+COPY src ./src
 
-# Install project dependencies
+# Install dependencies
 RUN npm install
 
-# Copy the rest of the project files to the working directory in the container
-COPY . .
+# Expose the port on which the application will run
+EXPOSE 4000
 
-# Compile the React project for production
-RUN npm run build
-
-# Expose port 3000, which is the default port that the React development server runs on
-EXPOSE 3000
-
-# Command to start the server when the container starts
+# Command to start the application
 CMD ["npm", "start"]
