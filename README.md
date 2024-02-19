@@ -1,4 +1,4 @@
-# test-enrichly-react-quiz-be
+# node-names-simple-backend
 
 This is a Node.js project consisting of an API with two routes. One route returns a list of strings from a JSON file, and the other route validates whether a given string is part of the JSON file's list of strings.
 
