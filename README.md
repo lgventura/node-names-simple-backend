@@ -7,7 +7,7 @@ This is a Node.js project consisting of an API with two routes. One route return
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/lgventura/test-enrichly-react-quiz-be.git
+git clone https://github.com/lgventura/node-names-simple-backend.git
 ```
 
 ## Usage
