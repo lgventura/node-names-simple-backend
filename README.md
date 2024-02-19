@@ -13,7 +13,7 @@ git clone https://github.com/lgventura/node-names-simple-backend.git
 ## Usage
 
 ```javascript
-cd test-enrichly-react-quiz-be
+cd node-names-simple-backend
 
 npm install
 
